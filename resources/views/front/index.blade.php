@@ -1,6 +1,7 @@
 @extends('front.template')
 
 @section('main')
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/css/bootstrap-datepicker.css">
     <!-- Header -->
     <header>
@@ -114,7 +115,7 @@
                 </div>
             </div>
             <div class="row text-center" style="max-height:500px">
-                <div class="col-md-4">
+                <div class="col-md-4 col-xs-12">
                     <h4 class="service-heading">Online Market</h4>
                     <p class="text-muted">We are an online truck market facilitating turck hiring through our portal which has created the infrastructure to identify, track and access trucks online.</p>
                     <hr>
@@ -125,10 +126,10 @@
                     <p class="text-muted">Our intelligent platform allows hirers to track their trucks in transit and rates the trucks based on their performance.
                     </p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-xs-12 hideme" style="opacity: 0;">
                     <img src="img/mobile.png" alt="" style="max-height:500px">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-xs-12">
                     <h4 class="service-heading">Accessibility</h4>
                     <p class="text-muted">Our dashboard helps you to carry out business transactions at your leisure. We have crafted a system which eases your truck hiring experience.</p>
                     <hr>
@@ -156,7 +157,7 @@
                 </div>
             </div>
             <div class="row" style="text-align:center">
-                <div class="col-xs-3 col-md-4">
+                <div class="col-xs-12 col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-info"></i>
                         <i class="fa fa-edit fa-stack-1x fa-inverse"></i>
@@ -167,7 +168,7 @@
                     </p>
 
                 </div>
-                <div class="col-xs-3 col-md-4">
+                <div class="col-xs-12 col-md-4">
                     <span class="fa-stack fa-4x">
                             <i class="fa fa-circle fa-stack-2x text-info"></i>
                             <i class="fa fa-list-ul fa-stack-1x fa-inverse"></i>
@@ -177,7 +178,7 @@
                         From your list of quotes, select any vendor based on their quoted rate or their performance. TruckJee will confirm with these vendors and generate a transaction. 
                     </p>
                 </div>
-                <div class="col-xs-3 col-md-4">
+                <div class="col-xs-12 col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-info"></i>
                         <i class="fa fa-check fa-stack-1x fa-inverse"></i>
@@ -200,27 +201,26 @@
                     </p>
                     <ul class="fa-ul">
                         <li><i class="fa fa-li fa-long-arrow-right"></i>
-                            Higher quality service by optimizing transport routes, means of transportation and reducing costs.
+                            <p>Higher quality service by optimizing transport routes, means of transportation and reducing costs.</p>
                         </li>
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            Access to a large pool of verified trucks across the country waiting for business.
-
+                            <p>Access to a large pool of verified trucks across the country waiting for business.</p>
                         </li>
                         <li><i class="fa fa-li fa-long-arrow-right"></i>
-                            Trucks hired through TruckJee have GPS Tracker installed which allows you to track your cargo online.
+                            <p>Trucks hired through TruckJee have GPS Tracker installed which allows you to track your cargo online.</p>
                         </li>
                         <li><i class="fa fa-li fa-long-arrow-right"></i>
-                            Strong optimized auction system that will make a competitive advantage to your business.
+                            <p>Strong optimized auction system that will make a competitive advantage to your business.</p>
                         </li>
                         <li><i class="fa fa-li fa-long-arrow-right"></i>
-                            Synchronized bidding process which ensures best rates from multiple business owners.
+                            <p>Synchronized bidding process which ensures best rates from multiple business owners.</p>
                         </li>
                         <li><i class="fa fa-li fa-long-arrow-right"></i>
-                            Hassles of collecting and distributing balance payments are reduced and are systematically processed.
+                            <p>Hassles of collecting and distributing balance payments are reduced and are systematically processed.</p>
                         </li>
                         <li><i class="fa fa-li fa-long-arrow-right"></i>
-                            Reduce the amount of stress and phone calls by shifting to our online transportation ERP which is a one stop for all your transportation needs.
+                            <p>Reduce the amount of stress and phone calls by shifting to our online transportation ERP which is a one stop for all your transportation needs.</p>
                         </li>
                     </ul>
                 </div>
@@ -271,7 +271,7 @@
                         <h3>TruckJee headquarters</h3>
                     </div><!-- .custom-heading end -->
 
-                    <div id="map">
+                    <div class="google-maps">
                         <div class="overlay" onClick="style.pointerEvents='none'" style="background:transparent;
                                position:relative;
                                width:640px;
@@ -337,6 +337,29 @@
     <script src="/js/jquery.geocomplete.js"></script>
     <script src="/js/contact_me.js"></script>
     <script>
+        $(document).ready(function() {
+
+            /* Every time the window is scrolled ... */
+            $(window).scroll( function(){
+
+                /* Check the location of each desired element */
+                $('.hideme').each( function(i){
+
+                    var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                    var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+                    /* If the object is completely visible in the window, fade it it */
+                    if( bottom_of_window > bottom_of_object ){
+
+                        $(this).animate({'opacity':'1'},500);
+
+                    }
+
+                });
+
+            });
+
+        });
         $('#source , #destination').geocomplete({
             country : "IN",
             types : ["geocode" ]
