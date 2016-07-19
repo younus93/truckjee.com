@@ -263,7 +263,7 @@
                         Sankagiri T.K,<br>
                         Salem - 637301.<br>
                     </address>
-                    <p><i class="fa fa-envelope"></i> sankakiri@truckjee.com</p>
+                    <p><i class="fa fa-envelope"></i> sankagiri@truckjee.com</p>
 
                 </div>
                 <div class="col-md-6 col-xs-12">
