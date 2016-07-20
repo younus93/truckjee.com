@@ -15,7 +15,7 @@ Route::group(['middleware' => ['web']], function () {
 		return view('front.terms');
 	});
 	
-	Route::get('/track/{imei}/{truck_number}/{slug}','HomeController@track');
+	Route::get('/track/{imei}/{slug}','HomeController@track');
 
 	// Admin
 	Route::get('admin', [

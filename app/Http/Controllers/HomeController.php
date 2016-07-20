@@ -66,7 +66,7 @@ class HomeController extends Controller
 		return response("error",302);
 	}
 
-	public function track($imei, $vehicle_number ,$slug)
+	public function track($imei ,$slug)
 	{
 		$client = new Client();
 		$response = $client->get('http://gps.truckjee.com:3001/gps/'.$imei);
@@ -82,7 +82,7 @@ class HomeController extends Controller
         return view('plot')->with([
             'lat'   =>  $response->lat,
             'long'  =>  $response->long,
-            'vehicleNumber' =>  $vehicle_number,
+            'vehicleNumber' =>  $slug,
             'location'      =>  $location,
             'last_updated'  =>  $last_udpated
         ]);
