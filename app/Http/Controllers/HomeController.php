@@ -8,6 +8,7 @@ use App\Http\Requests\WebsiteLoadRequest;
 use App\Jobs\ChangeLocale;
 use App\Models\WebsiteLoad;
 use Carbon\Carbon;
+use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 
@@ -63,6 +64,28 @@ class HomeController extends Controller
 			Log::info($e);
 		}
 		return response("error",302);
+	}
+
+	public function track($imei, $vehicle_number ,$slug)
+	{
+		$client = new Client();
+		$response = $client->get('http://gps.truckjee.com:3001/gps/'.$imei);
+		$response = json_decode($response->getBody()->getContents())[0];
+        $location = $client->get('http://nominatim.openstreetmap.org/reverse?'.
+            'format=json'.
+            '&lat='.$response->lat.
+            '&lon='.$response->long.
+            '&zoom=18'.
+            '&addressdetails=0');
+        $location = (json_decode($location->getBody()->getContents())->display_name);
+        $last_udpated = Carbon::parse($response->server_time)->diffForHumans();
+        return view('plot')->with([
+            'lat'   =>  $response->lat,
+            'long'  =>  $response->long,
+            'vehicleNumber' =>  $vehicle_number,
+            'location'      =>  $location,
+            'last_updated'  =>  $last_udpated
+        ]);
 	}
 
 }
