@@ -68,6 +68,9 @@
                         <a class="page-scroll" href="#services">Services</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#contact1">Contact</a>
                     </li>
                     <li>

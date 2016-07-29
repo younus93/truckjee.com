@@ -228,6 +228,143 @@
             <h3 class="section-subheading"></h3>
         </div>
     </section>
+
+    <!-- #team -->
+
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">Coming together is a beginning. Keeping together is progress. Working together is success.</h3>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2" style="margin-left:20px;">
+                    <div class="team-member">
+                        <img src="/img/team/1.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Mohanraj S</h4>
+                        <ul class="list-inline social-buttons st">
+                            <li><a href="https://twitter.com/mohanharsha78"><i class="fa fa-twitter"></i></a>
+                            <li><a href="https://www.facebook.com/mohanraj.jsm"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.linkedin.com/in/mohanraj-s-38a366125?trk=hp-identity-name"><i class="fa fa-linkedin"></i></a>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-2" style="margin-left:20px;">
+                    <div class="team-member">
+                        <img src="/img/team/2.jpg"  class="img-responsive img-circle" alt="">
+                        <h4>Lokeshwari</h4>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://mobile.twitter.com/chithu88"><i class="fa fa-twitter"></i></a>
+                            <li><a href="https://www.facebook.com/logeshwari.srinivasan"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.linkedin.com/in/logeshwari-srinivasan-54a68323?trk=hp-identity-name"><i class="fa fa-linkedin"></i></a>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-2" style="margin-left:20px;">
+                    <div class="team-member">
+                        <img src="/img/team/3.jpg"  class="img-responsive img-circle" alt="">
+                        <h4>Venkatachlam</h4>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/Venkat76211544"><i class="fa fa-twitter"></i></a>
+                            <li><a href="https://www.facebook.com/venkat.chalam.90281"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.linkedin.com/in/venkat-vvv-41338b125?trk=hp-identity-name"><i class="fa fa-linkedin"></i></a>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-2" style="margin-left:20px;">
+                    <div class="team-member">
+                        <img src="/img/team/4.jpg"  class="img-responsive img-circle" alt="">
+                        <h4>Subramanium</h4>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/rsmanian1051952"><i class="fa fa-twitter"></i></a>
+                            <li><a href="https://www.facebook.com/profile.php?id=100012974437542"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.linkedin.com/in/subramanian-ramasamy-a62364125?trk=hp-identity-name"><i class="fa fa-linkedin"></i></a>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-2" style="margin-left:20px;">
+                    <div class="team-member">
+                        <img src="/img/team/5.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Jaya Prakash</h4>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/prakash25888"><i class="fa fa-twitter"></i></a>
+                            <li><a href="https://www.facebook.com/jaya.prakash.3114"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.linkedin.com/in/jayaprakash-j-564352125?trk=hp-identity-name"><i class="fa fa-linkedin"></i></a>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-2" style="margin-left:20px;">
+                    <div class="team-member">
+                        <img src="/img/team/6.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Sumeer Raj</h4>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/sumirtwit07"><i class="fa fa-twitter"></i></a>
+                            <li><a href="https://www.facebook.com/sumir.raj.1"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.linkedin.com/in/sumeer-raj-3034ba125?trk=hp-identity-name"><i class="fa fa-linkedin"></i></a>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-2" style="margin-left:20px;">
+                    <div class="team-member">
+                        <img src="/img/team/10.jpg"  class="img-responsive img-circle" alt="">
+                        <h4>Shakila C</h4>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/shakila0722"><i class="fa fa-twitter"></i></a>
+                            <li><a href="https://www.facebook.com/shakila.chandran"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.linkedin.com/in/shakila-c-96a837100?trk=hp-identity-name"><i class="fa fa-linkedin"></i></a>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-2" style="margin-left:20px;">
+                    <div class="team-member">
+                        <img src="/img/team/8.jpg"  class="img-responsive img-circle" alt="">
+                        <h4>Edward AR</h4>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/E8uward"><i class="fa fa-twitter"></i></a>
+                            <li><a href="https://www.facebook.com/E8uward"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.linkedin.com/in/edward-abel-rosario-6ab391125?trk=nav_responsive_tab_profile"><i class="fa fa-linkedin"></i></a>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-2" style="margin-left:20px;">
+                    <div class="team-member">
+                        <img src="/img/team/9.jpg"  class="img-responsive img-circle" alt="">
+                        <h4>Varun Vinod</h4>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/varunvinod56"><i class="fa fa-twitter"></i></a>
+                            <li><a href="https://www.facebook.com/varun.vinod.33"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.linkedin.com/in/varun-vinod-2a1977107?trk=hp-identity-name"><i class="fa fa-linkedin"></i></a>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+
+            {{--<div class="row">--}}
+                {{--<div class="col-lg-8 col-lg-offset-2 text-center">--}}
+                    {{--<p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            </div>
+    </section>
+
+
     <section id="contact1">
         <div class="container">
             <div class="row">
