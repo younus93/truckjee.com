@@ -318,7 +318,7 @@
                 </div>
                 <div class="col-sm-2" style="margin-left:20px;">
                     <div class="team-member">
-                        <img src="/img/team/10.jpg"  class="img-responsive img-circle" alt="">
+                        <img src="/img/team/7.jpg"  class="img-responsive img-circle" alt="">
                         <h4>Shakila C</h4>
                         <ul class="list-inline social-buttons">
                             <li><a href="https://twitter.com/shakila0722"><i class="fa fa-twitter"></i></a>
